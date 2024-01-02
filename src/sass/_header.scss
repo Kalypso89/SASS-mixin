@@ -1,0 +1,10 @@
+@use 'variables' as *;
+
+header{
+    color: $mainTitleColor;
+    width: 100%;
+    h1 {
+        font-style: italic;
+        text-align: center;
+    }
+}
