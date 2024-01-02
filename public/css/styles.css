@@ -1,23 +1,117 @@
+#section-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-evenly;
-  color: darkorchid;
+}
+main h2 {
+  color: white;
+}
+main #section-one {
+  color: rgb(175, 85, 220);
+  width: 50%;
+}
+main #section-one h3 {
+  text-align: center;
+  font-weight: bold;
+}
+main #section-one figure {
+  display: flex;
+  flex-direction: column;
+}
+main #section-one figure img {
+  border-radius: 10px;
+  align-self: center;
+}
+main #section-one figure img:hover {
+  outline: 2px solid rgb(175, 85, 220);
+}
+main #section-one figure figcaption {
+  margin-top: 10px;
 }
 main #section-two {
-  color: green;
+  color: rgb(75, 195, 75);
+  width: 50%;
+}
+main #section-two h3 {
+  text-align: center;
+  font-weight: bold;
+}
+main #section-two figure {
+  display: flex;
+  flex-direction: column;
+}
+main #section-two figure img {
+  border-radius: 10px;
+  align-self: center;
+}
+main #section-two figure img:hover {
+  outline: 2px solid rgb(75, 195, 75);
+}
+main #section-two figure figcaption {
+  margin-top: 10px;
+}
+main #section-three {
+  color: rgb(10, 49, 84);
+  width: 50%;
+}
+main #section-three h3 {
+  text-align: center;
+  font-weight: bold;
+}
+main #section-three figure {
+  display: flex;
+  flex-direction: column;
+}
+main #section-three figure img {
+  border-radius: 10px;
+  align-self: center;
+}
+main #section-three figure img:hover {
+  outline: 2px solid rgb(10, 49, 84);
+}
+main #section-three figure figcaption {
+  margin-top: 10px;
+}
+main #section-four {
+  color: yellow;
+  width: 50%;
+}
+main #section-four h3 {
+  text-align: center;
+  font-weight: bold;
+}
+main #section-four figure {
+  display: flex;
+  flex-direction: column;
+}
+main #section-four figure img {
+  border-radius: 10px;
+  align-self: center;
+}
+main #section-four figure img:hover {
+  outline: 2px solid yellow;
+}
+main #section-four figure figcaption {
+  margin-top: 10px;
+}
+
+header {
+  color: black;
+  width: 100%;
+}
+header h1 {
+  font-style: italic;
+  text-align: center;
 }
 
 body {
-  background-color: burlywood;
-}
-body header {
-  color: crimson;
-  width: 100%;
-}
-body header h1 {
-  font-style: italic;
-  text-align: center;
+  background-color: rgb(143, 115, 115);
 }
 
 /*# sourceMappingURL=styles.css.map */
