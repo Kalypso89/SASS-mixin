@@ -1,0 +1,25 @@
+@use 'variables' as *;
+
+@mixin section-style($color) {
+    color: $color;
+    width: 50%;
+    h3 {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    figure {
+        display: flex;
+        flex-direction: column;
+        img {
+            border-radius: $borderRadius;
+            &:hover {
+                outline: 2px solid $color;
+            }
+            align-self: center;
+        }
+        figcaption {
+            margin-top: 10px;
+        }
+    }
+}
